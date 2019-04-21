@@ -36,4 +36,10 @@ Then in a terminal window navigate to a directory where you'd like to store the 
 
 `cd your-repo-name`
 
+Initialize your package.json with this command:
+
+`npm init`
+
+Finish up by stepping through each question of npm init by providing details for your app.
+
 Let's move on to the next step where we'll install Serverless! 🐑

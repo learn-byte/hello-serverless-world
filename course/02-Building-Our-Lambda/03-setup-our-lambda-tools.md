@@ -6,7 +6,7 @@ If you are new to Express.js [check out it's documentation here](https://express
 
 ---
 
-#### Let's get Express.js added to our project. 
+### Let's get Express.js added to our project
 
 `npm install --save express`
 
@@ -14,11 +14,11 @@ Great, now we can take advantage of the routing Express has to offer.  Before we
 
 ---
 
-#### Add local development capabilities
+### Add local development capabilities and serverless-http
 
-We will want to be able to test and run our serverless project locally.  So that we don't have to deploy our application just to test our code.  To get this started install `serverless-offline`:
+We will want to be able to test and run our serverless project locally so that we don't have to deploy our application just to test our code.  To get this started install `serverless-offline`:
 
-`npm install --save-dev serverless-offline`
+`npm install --save-dev serverless-offline serverless-http`
 
 And add the plugin to our serverless.yml template as a top level key:
 
@@ -27,9 +27,13 @@ plugins:
   - serverless-offline
 ```
 
+We will also include `serverless-http` to enable our lambda to act as an http server.
+
+`npm install --save serverless-http`
+
 ---
 
-#### Include Webpack
+### Include Webpack
 
 To bundle up our code automatically for use in the Lambda we will take advantage of Webpack. Install Webpack for local use with this command:
 
@@ -75,7 +79,9 @@ plugins:
   - serverless-webpack
 ```
 
-#### Setup Babel
+---
+
+### Setup Babel
 
 We have specified in our webpack file that we will be using Babel for compiling our code to more advanced versions of javascript.  You can [read more about Babel](https://babeljs.io/docs/en/) to better understand the compiling process. 
 
@@ -92,7 +98,9 @@ Then create a `.babelrc` file in your home directory of the project with this co
 }
 ```
 
-## All set!  We did a lot of setup getting webpack, babel, and other modules we will need installed. Now we are ready to write some Express code!
+## All set! 🚀
+
+We did a lot of setup getting webpack, babel, and other modules we will need installed. Now we are ready to write some Express code!
 
 
 
