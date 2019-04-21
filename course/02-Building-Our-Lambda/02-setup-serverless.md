@@ -33,7 +33,7 @@ If you haven't set up AWS locally with your CLI you'll need to do so.
 3. Re-work the serverless.yml file to look like this:
 
 ```
-service: aws-nodejs
+service: hello-world-serverless-lambda
 
 provider:
   name: aws
@@ -62,6 +62,6 @@ Finally we will give the `events` key to our `functions` and use it to route all
 
 4. Deploy the lambda `serverless deploy`
 
-Serverless should return some `endpoints` urls for you.  Pull the URL up in a browser to see your Lambda in action! https://qncdy5y2pg.execute-api.us-west-2.amazonaws.com/dev
+Serverless should return some `endpoints` urls for you.  Pull the URL up in a browser to see your Lambda in action!  This is our URL for the lambda, yours will definitely be different. https://qncdy5y2pg.execute-api.us-west-2.amazonaws.com/dev
 
 You should see a message "Go Serverless v1.0! Your function executed successfully!" 🎉
