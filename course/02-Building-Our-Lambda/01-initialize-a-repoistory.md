@@ -8,6 +8,8 @@
 
 You probably already know about Github and already have an account but if you don't then spend some time [learning about Github here](https://lab.github.com/githubtraining/introduction-to-github) and [get signed up for your account](https://github.com/join)!
 
+---
+
 ### Once you're logged into your account [create a new Github Repository](https://github.com/new).
 
 ![new-github-repository](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/new-github-repository.png)
@@ -19,6 +21,8 @@ Add a description if you like, make it either public or private, and check "Init
 Finally, from the dropdown add a .gitignore for Node, since we will be writing our Lambda using Express.js and Node.js.
 
 Click `Create Repository`!
+
+---
 
 ### Finally, let's get our repository cloned down to our local computer. 
 
@@ -32,4 +36,4 @@ Then in a terminal window navigate to a directory where you'd like to store the 
 
 `cd your-repo-name`
 
-### Onward to the fun parts! 🦎
+Let's move on to the next step where we'll install Serverless! 🐑
