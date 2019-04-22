@@ -70,6 +70,6 @@ export default Hello;
 
 #### Sure enough, the button "clicks!"
 
-![button-clicking](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/button-clicking.png)
+![button-clicking](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/button-clicks.png)
 
 Move onto the next lesson to learn how to make an API call 📞
