@@ -98,7 +98,7 @@ class Home extends Component {
 export default Home;
 ```
 
-The `Home` page and the `Hello` page can be almost exactly the same for now.  We should create the `Hello` page to be the same as the `Home` page except replace the word `Home` for `Hello`.  
+###### The `Home` page and the `Hello` page can be almost exactly the same for now.  We should create the `Hello` page to be the same as the `Home` page except replace the word `Home` for `Hello`.  
 ---
 
 ### App renders navigation
