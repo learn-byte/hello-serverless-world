@@ -2,7 +2,7 @@
 
 ### With our serverless lambda deployed, let's get our client set up to interact with the data our lambda is returning.
 
-To start we need to initialize a repository for our client.  We can (follow the lesson)[/course/hello-serverless-world/02-Building-Our-Lambda/01-initialize-a-repository] where we created a repository for the lambda. 
+To start we need to initialize a repository for our client.  You can follow the lesson where we created a repository for the lambda, if you need a reminder of how it's done. 
 
 Create a repository with a name like `hello-world-serverless-client`
 
@@ -12,7 +12,7 @@ Create a repository with a name like `hello-world-serverless-client`
 
 From our newly created repository we will create a new React app.  Create React App let's us get up and running fast with a new React application. 
 
-Check out (Facebook's documentation)[https://facebook.github.io/create-react-app/docs/getting-started] for more details on their officially supported Create React App template.
+Check out (the Create React App documentation)[https://facebook.github.io/create-react-app/docs/getting-started] for more details on Facebook's officially supported templating library.
 
 ```
 npx create-react-app hello-world-serverless-client
