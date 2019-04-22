@@ -73,6 +73,13 @@ functions:
 
 This points our app to use `src/index.handler` as our handler for the app. We have also defined a function we have yet to create, `hello`.
 
+We will also need to include this in our serverless.yml so that webpack packages up our app correctly:
+
+```
+custom:
+  webpackIncludeModules: true
+```
+
 ---
 
 ### Create the `hello` function and Express route
@@ -88,7 +95,8 @@ const app = express();
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, OPTIONS');
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Origin");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, 
+                Accept, Access-Control-Allow-Origin");
     next();
 });
 
@@ -122,5 +130,15 @@ Your app should start up at `http://localhost:3000/`
 
 If you direct a browser to `http://localhost:3000/hello` you should see "hello world!"
 
+---
+
+### Deploy it
+
+To finish up deploy this lambda to the cloud so we can ingest it in our web client which we will make next! 
+
+`serverless deploy`
+
 Success 👋 🌎
+
+https://e9pa7v3btg.execute-api.us-west-2.amazonaws.com/dev/hello
 
