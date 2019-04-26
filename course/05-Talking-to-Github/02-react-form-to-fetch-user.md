@@ -1,4 +1,4 @@
-# 
+# Building a React form that fetches our Github username
 
 ### Let's refactor our home page to use our new Github user endoint on our Lambda.
 
@@ -20,7 +20,8 @@ class Home extends Component {
         };
     }
     handleClick = (event) => {
-        axios.get(`https://e9pa7v3btg.execute-api.us-west-2.amazonaws.com/dev/user?name=${this.state.username}`)
+        const userUrl = 'https://e9pa7v3btg.execute-api.us-west-2.amazonaws.com/dev/user'
+        axios.get(`${userUrl}?name=${this.state.username}`)
             .then(res => {
                 this.setState({ user: res.data.message });
             })
@@ -63,3 +64,7 @@ We'll set a default `username` to `'octocat'` so that user's will have some defa
 This page doesn't render any content yet but it is all set for us to start rendering from `this.state.user`.
 
 ![enter-github-username](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/enter-github-username.png)
+
+The response from our lambda, is successfully set to `this.state.user`.
+
+Next up, let's render our profile! 👤
