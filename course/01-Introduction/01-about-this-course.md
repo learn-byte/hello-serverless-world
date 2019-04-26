@@ -7,6 +7,7 @@ This course assumes basic prior programming knowledge.  We will teach:
 
 - Creating a serverless AWS Lambda
 - Using Express in Lambdas for routing API requests
+- Fetching Github user information
 - Setting up Lambda for local development
 - Building a React web client to receive all the data from our serverless lambda
 - Launching it all onto Amazon Web Services for basically free!

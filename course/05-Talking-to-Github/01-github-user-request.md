@@ -2,7 +2,7 @@
 
 ### We should add some more interesting functionality to our application.
 
-###Let's get any user's Github inofrmation from our Lambda so we can return it to our web app.
+### Let's get any user's Github inofrmation from our Lambda so we can return it to our web app.
 
 Hop back over to your Lambda code and start off by adding a new file. Call it `getUser.js` since we be getting our user information back from it.  You can be more specific like `getGithubUser.js` if you want.
 
