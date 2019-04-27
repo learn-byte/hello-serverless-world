@@ -14,6 +14,9 @@ This course assumes basic prior programming knowledge.  We will teach:
 
 This course has been designed for learners to be able to jump around to the parts they are interested in.  Feel free to dive into specific parts!
 
-Check out the working example of what we will be building here: TODO
+[Check out the working example](http://hello-serverless-world-client.s3-website-us-west-2.amazonaws.com/) of what we will be building.
+
+![finished-demo](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/finished-demo.png)
 
 Have fun!!
+
