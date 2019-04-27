@@ -4,7 +4,7 @@
 
 Let's make a new component which will render our User Profile.  We will pass the data down from the `Home.js` component through props. Props can be any data type that we like.  We are able to pass data down to child components through props.  
 
-Take a look at our new `Home.js` file where we have imported a new `UserProfile.js` dependency and are rendering that dependency and passing a `user` prop with our Github API result in it:
+Take a look at our new `Home.js` file where we have imported a new `UserProfile` dependency and are rendering that dependency and passing a `user` prop with our Github API result in it:
 
 ```
 import React, { Component } from 'react';
@@ -75,8 +75,6 @@ class UserProfile extends Component {
 
 export default UserProfile;
 ```
-
----
 
 ### Check it out! Our final working product! 
 
