@@ -16,7 +16,5 @@ This course has been designed for learners to be able to jump around to the part
 
 [Check out the working example](http://hello-serverless-world-client.s3-website-us-west-2.amazonaws.com/) of what we will be building.
 
-![finished-demo](https://raw.githubusercontent.com/learn-byte/hello-serverless-world/master/assets/images/finished-demo.png)
-
 Have fun!!
 
